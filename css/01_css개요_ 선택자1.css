@@ -1,0 +1,78 @@
+/*css 파일은 <style> 태그 내부라고 생각*/
+
+/*아이디가 test1인 요소를 선택*/
+#test1{
+  color : hotpink; /*글자색*/
+  font-weight: bold; /*글자 굵기 : 굵게*/
+  font-size: 20px; ; /* 글자 크기  */
+
+}
+
+/* id 선택자 : #id 속성값 {}
+  태그선택자 : 태그명 {} */
+
+/* id 선택자  */
+
+#li1{
+  background-color: #78ABA8 ;
+  color: red;
+}
+
+#li2{
+ background-color: #BC5A94; 
+ color: #799351 ;
+}
+
+#li3{
+background-color: #615EFC;
+color: #EADBC8;
+}
+
+/* 태그 선택자 */
+
+strong{
+  font-size: 18px;
+  font-family: 고딕;
+  color: #912BBC ;
+}
+
+code{
+background-color: #FFC94A ; /* 배경색 */
+display: block; /* 요소를 block형식으로 변경 */
+font-weight: bold;
+}
+
+/* class선택자 (.) */
+
+.class-test1{
+ background-color: black;
+ color: whitesmoke;
+}
+.class-test2{background-color: yellow;
+  color: red;
+
+}
+
+.bg-green{
+  background-color: green;
+}
+.font-red{
+  color: red;
+}
+
+/* 웹 폰트 적용 */
+@font-face {
+  font-family: 'KyoboHandwriting2023wsa';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/KyoboHandwriting2023wsa.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* 모든 요소 선택자 * */
+
+*{
+  /* 페이지내 모든 글꼴 변경 */
+  font-family: 'KyoboHandwriting2023wsa';
+
+}
